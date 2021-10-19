@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Software>
+	<SystemSoftware>
+		<OperatingSystem name="Windows 10" osFamily="Windows"
+			version="21H1" releaseDate="01.02.21" size="526418500" price="150"
+			bitness="64" />
+		<OperatingSystem name="Windows 11" osFamily="Windows"
+			version="1" releaseDate="01.06.21" size="1187462900" price="180"
+			bitness="64" />
+		<OperatingSystem name="Linux Ubuntu" osFamily="Linux"
+			version="20.04.3 LTS" releaseDate="01.04.20" size="745185700"
+			price="0" bitness="64" />
+		<OperatingSystem name="macOS 11 Big Sur"
+			osFamily="MacOS" version="11.6" releaseDate="13.09.21"
+			size="6258654100" price="0" bitness="64" />
+
+		<VirusSoftware name="Conficker" osFamily="All"
+			version="1" releaseDate="21.11.08" size="548513" price="0"
+			virusType="Worm" />
+		<VirusSoftware name="ILOVEYOU" osFamily="All"
+			version="1" releaseDate="05.05.00" size="521528" price="0"
+			virusType="Worm" />
+		<VirusSoftware name="Storm Worm" osFamily="All"
+			version="1" releaseDate="24.10.07" size="518470" price="0"
+			virusType="Worm" />
+
+		<AntivirusSoftware name="Norton 360" osFamily="All"
+			version="10" releaseDate="14.06.19" size="4825470" price="50"
+			license="1 host" />
+		<AntivirusSoftware
+			name="BullGuard Internet Security" osFamily="All" version="5"
+			releaseDate="17.04.20" size="7895470" price="60" license="2 host" />
+		<AntivirusSoftware name="Avast Premium Security"
+			osFamily="Windows" version="21" releaseDate="10.03.20" size="7565270"
+			price="55" license="5 host" />
+		<AntivirusSoftware name="McAfee LiveSafe"
+			osFamily="All" version="5" releaseDate="14.03.20" size="7485470"
+			price="60" license="1 host" />
+		<AntivirusSoftware name="Mac Internet Security X9"
+			osFamily="MacOS" version="11" releaseDate="10.03.21" size="74856470"
+			price="30" license="2 host" />
+		<AntivirusSoftware name="Sophos" osFamily="Linux"
+			version="5" releaseDate="05.02.21" size="2527470" price="0"
+			license="1 host" />
+	</SystemSoftware>
+
+	<DevelopmentSystem>
+		<IDE name="Eclipse" osFamily="All" version="2021-03"
+			releaseDate="14.03.21" size="7422470" price="0"
+			supportLanguages="C, C++, Java, Perl, PHP, Python, Ruby" />
+		<IDE name="PhpStorm" osFamily="All" version="22"
+			releaseDate="14.03.21" size="84523470" price="200"
+			supportLanguages="PHP, JavaScript, HTML, CSS, SASS, LESS" />
+		<IDE name="CLion" osFamily="All" version="22"
+			releaseDate="14.02.21" size="685223470" price="200"
+			supportLanguages="С++, C, Objective C, Kotlin, Python, Swift, Fortran, JavaScript, CSS" />
+		<IDE name="Microsoft Visual Studio" osFamily="All" version="22"
+			releaseDate="14.01.21" size="14528223470" price="540"
+			supportLanguages="Ajax, ASP.NET, DHTML, ASP.NET, JavaScript, Visual Basic, Visual C#, Visual C++, Visual F#, XAML" />
+		<IDE name="PyCharm" osFamily="All" version="11"
+			releaseDate="05.03.21" size="14528223470" price="200"
+			supportLanguages="Python, Jython, Cython, IronPython, PyPy, AngularJS, Coffee Script, HTML/CSS, Django/Jinja2 templates, Gql, LESS/SASS/SCSS/HAML, Mako, Puppet, RegExp, Rest, SQL, XML, YAML" />
+		<IDE name="IntelliJ IDEA" osFamily="All" version="15"
+			releaseDate="05.03.21" size="1258223470" price="500"
+			supportLanguages="Java, AngularJS, Scala, Groovy, AspectJ, CoffeeScript, HTML, Kotlin, JavaScript, LESS, Node JS, PHP, Python, Ruby, Sass,TypeScript, SQL" />
+		<IDE name="Xcode" osFamily="MacOS" version="13"
+			releaseDate="05.03.21" size="5134223470" price="0"
+			supportLanguages="AppleScript, C, C++, Java, Objective-C, Swift" />
+	</DevelopmentSystem>
+
+	<ApplicationSoftware>
+		<OfficePackage name="Microsoft Office 2016"
+			osFamily="Windows" version="2.2.1" releaseDate="15.06.16"
+			size="527422470" price="50"
+			programs="Word, Excel, PowerPoint, Access, Outlook, Publisher, Skype" />
+		<OfficePackage name="OpenOffice" osFamily="Windows"
+			version="3.2.1" releaseDate="15.06.18" size="745122470" price="0"
+			programs="Writer, Calc, Impress, Base, Draw, Math" />
+		<OfficePackage name="WPS Office" osFamily="All"
+			version="1.2.1" releaseDate="15.06.16" size="475622470" price="20"
+			programs="Kingsoft Writer, Kingsoft Presentation, Kingsoft Spreadsheets" />
+		<OfficePackage name="LibreOffice" osFamily="All"
+			version="1.1.1" releaseDate="15.06.16" size="652322470" price="0"
+			programs="Writer, Calc, Impress, Base, Draw, Math" />
+
+		<Database name="MongoDB" osFamily="All" version="1.1.1"
+			releaseDate="10.06.14" size="85422470" price="0" baseType="NoSQL" />
+		<Database name="MySQL" osFamily="All" version="1.2.1"
+			releaseDate="12.08.15" size="65232470" price="0"
+			baseType="Relational" />
+		<Database name="PostgreSQL" osFamily="All" version="2.1.1"
+			releaseDate="16.09.16" size="41252470" price="0"
+			baseType="Relational" />
+		<Database name="SQLite" osFamily="All" version="1.1.2"
+			releaseDate="18.10.17" size="85232470" price="10"
+			baseType="Relational" />
+		<Database name="Oracle" osFamily="All" version="1.1.3"
+			releaseDate="20.11.18" size="45355470" price="60"
+			baseType="Relational" />
+
+		<Game name="Chess" osFamily="All" version="1.0"
+			releaseDate="10.06.10" size="852470" price="0" gameType="OfficeGame" />
+		<Game name="Solitaire" osFamily="All" version="1.0"
+			releaseDate="10.06.20" size="500470" price="0" gameType="OfficeGame" />
+		<Game name="Grand Theft Auto 5" osFamily="All" version="1.0"
+			releaseDate="17.09.13" size="5048360470" price="40" gameType="Action" />
+		<Game name="Far Cry 3" osFamily="All" version="1.0"
+			releaseDate="30.11.12" size="4285500470" price="30" gameType="Action" />
+		<Game name="Fallout: New Vegas" osFamily="All" version="1.0"
+			releaseDate="22.10.10" size="813513542" price="30"
+			gameType="Strategy" />
+		<Game name="Need for Speed: Underground" osFamily="All"
+			version="1.0" releaseDate="17.11.03" size="516813225" price="50"
+			gameType="Simulator" />
+	</ApplicationSoftware>
+</Software>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computer>
+	<ComputerType>DEVELOPMENT</ComputerType>
+
+	<Parameters></Parameters>
+
+	<Software>
+		<OperatingSystem bitness="64" name="Linux Ubuntu" osFamily="LINUX" version="20.04.3 LTS" releaseDate="Mon Apr 01 00:00:00 MSK 20" size="745185700" price="0"/>
+		<AntivirusSoftware license="1 host" name="Sophos" osFamily="LINUX" version="5" releaseDate="Wed Feb 05 00:00:00 MSK 21" size="2527470" price="0"/>
+		<IDE supportLanguages="Java, AngularJS, Scala, Groovy, AspectJ, CoffeeScript, HTML, Kotlin, JavaScript, LESS, Node JS, PHP, Python, Ruby, Sass,TypeScript, SQL" name="IntelliJ IDEA" osFamily="ALL" version="15" releaseDate="Wed Mar 05 00:00:00 MSK 21" size="1258223470" price="500"/>
+		<IDE supportLanguages="PHP, JavaScript, HTML, CSS, SASS, LESS" name="PhpStorm" osFamily="ALL" version="22" releaseDate="Fri Mar 14 00:00:00 MSK 21" size="84523470" price="200"/>
+		<OfficePackage programs="[Writer,  Calc,  Impress,  Base,  Draw,  Math]" name="OpenOffice" osFamily="WINDOWS" version="3.2.1" releaseDate="Wed Jun 15 00:00:00 MSK 18" size="745122470" price="0"/>
+		<Database baseType="NoSQL" name="MongoDB" osFamily="ALL" version="1.1.1" releaseDate="Sun Jun 10 00:00:00 MSK 14" size="85422470" price="0"/>
+		<Database baseType="Relational" name="MySQL" osFamily="ALL" version="1.2.1" releaseDate="Mon Aug 12 00:00:00 MSK 15" size="65232470" price="0"/>
+		<Database baseType="Relational" name="PostgreSQL" osFamily="ALL" version="2.1.1" releaseDate="Wed Sep 16 00:00:00 MSK 16" size="41252470" price="0"/>
+	</Software>
+
+	<SoftwarePrice>700</SoftwarePrice>
+
+	<SoftwareSize>3027489990</SoftwareSize>
+</Computer>
