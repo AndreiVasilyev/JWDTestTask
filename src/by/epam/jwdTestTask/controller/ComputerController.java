@@ -1,8 +1,13 @@
 package by.epam.jwdTestTask.controller;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Level;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
 
 import by.epam.jwdTestTask.bean.computer.Computer;
 import by.epam.jwdTestTask.bean.software.Software;
@@ -13,6 +18,16 @@ import by.epam.jwdTestTask.service.ServiceProvider;
 import by.epam.jwdTestTask.service.SoftwareService;
 
 public class ComputerController {
+
+	private static final Logger LOGGER = Logger.getLogger(ComputerController.class.getName());
+
+	static {
+		try {
+			LogManager.getLogManager().readConfiguration(new FileInputStream("logging.properties"));
+		} catch (SecurityException | IOException e) {
+			e.printStackTrace();
+		}
+	}
 
 	private ServiceProvider serviceProvider = ServiceProvider.getInstance();
 
@@ -64,7 +79,7 @@ public class ComputerController {
 				break;
 			}
 		} catch (SoftwareServiceException e) {
-			// logging
+			LOGGER.log(Level.SEVERE, "Error finding software", e);
 			return null;
 		}
 		return resultList;
@@ -91,7 +106,7 @@ public class ComputerController {
 		try {
 			computerService.writeComputer(computer, parameters);
 		} catch (ComputerServiceException e) {
-			// logging error
+			LOGGER.log(Level.SEVERE, "Error save computer", e);
 			return false;
 		}
 		return true;

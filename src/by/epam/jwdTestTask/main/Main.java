@@ -8,7 +8,7 @@ import by.epam.jwdTestTask.bean.computer.ComputerType;
 import by.epam.jwdTestTask.controller.ComputerController;
 
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String[] args) {		
 		ComputerController controller = new ComputerController();
 		Computer computer = new Computer(ComputerType.DEVELOPMENT);
 		computer.setComputerSoftware(controller.createSoftwareList(computer));
